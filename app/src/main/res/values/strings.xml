@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">商宗森2024110530Application实验二</string>
+
+    <!-- 区1：动态添加文本 -->
+    <string name="btn_add_text">添加文本</string>
+    <string name="et_input_hint">请输入内容</string>
+    <string name="new_text_format">This is a new textTextView:%1$d</string>
+
+    <!-- 区2：ProgramAdviser 查询 -->
+    <string name="btn_query">查询</string>
+    <string name="result_found_format">找到：%1$s</string>
+    <string name="result_not_found">未匹配到数据</string>
+
+    <!-- 语言选择：按特点推荐编程语言 -->
+    <string name="spinner_prompt">请选择语言特点</string>
+    <string-array name="program_features">
+        <item>快速</item>
+        <item>容易</item>
+        <item>新语言</item>
+        <item>面向对象</item>
+    </string-array>
+    <string name="lang_c">C</string>
+    <string name="lang_python">Python</string>
+    <string name="lang_kotlin">Kotlin</string>
+    <string name="lang_java">Java</string>
+    <string name="lang_unknown">unknown</string>
+    <string name="recommend_language_format">推荐语言：%1$s</string>
 </resources>
